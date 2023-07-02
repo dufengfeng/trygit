@@ -83,3 +83,24 @@ or
 git stash pop 
 
 ##Linux入门
+which echo可以查看（到底是如何查找到环境变量再调用的）
+mv f2 f1(相当于是重命名)
+cp f2 f2.bak（相当于备份）
+__find的一些进阶用法：__
+find a.cpp(精确查找)
+find . | grep hello（在该目录底下寻找所有带hello关键词的东西）
+__chmod可以更改一些权限:__
+chmod +r `script.sh`（给所有人增加read的权限）
+chmod -r `script.sh`
+chmod 777 `public.py`（让文件可以被任何人去读写执行）
+chmod o-rw journal.txt（禁止组外的用户的读写）
+__关于一些帮助__
+man ls（/-a）
+tldr ls
+__配置公钥私钥__
+等有了服务器再说吧
+__关于vimtutor的用法__
+vimtutor -g zh
+vimtutor 自学一手
+
+
