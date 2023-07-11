@@ -102,5 +102,6 @@ __配置公钥私钥__
 __关于vimtutor的用法__
 vimtutor -g zh
 vimtutor 自学一手
+举个例子
 
 
