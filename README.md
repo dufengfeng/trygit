@@ -54,7 +54,7 @@ git checkout --test.txt
 
 __远程库的添加与克隆__
 添加：
-`git remote add origin git@github.com:michaelliao/learngit.git`--
+`git remote add origin git@github.com:michaelliao/learngit.git`
 `git push -u origin master`
 （根据命令按要求复制）
 克隆：
@@ -102,6 +102,42 @@ __配置公钥私钥__
 __关于vimtutor的用法__
 vimtutor -g zh
 vimtutor 自学一手
-举个例子
+## 有关web容易遗忘的知识点和标签
+__关于一些比较常用却容易忘记的标签__
+hr标签：水平线（其中的属性有size,color）
+br标签：换行
+b、i：分别对应了加粗或者是斜体
+__关于a标签的用法__
+href="https://www.runoob.com/" 
+target="_blank"
+id="tips"
+href="#tips"（实现定向的跳转） 
+__在head标签中__
+base标签：定义了基本的链接地址，与链接目标
+base href="http://www.runoob.com/images/" target="_blank"
+link标签：链接到样式表格
+link rel="stylesheet" href="mystyle.css"
+style标签：可以直接添加基本样式来对文档进行渲染
+meta标签：描述了一些基本的元数据
+meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript"（这里为搜索引擎定义了关键词）
+meta name="description" content="免费 Web & 编程 教程"（这里是为了网页的定义来描述了内容）
+meta name="author" content="Runoob"（网页作者）
+__关于字体颜色背景颜色等等的基本样式操作__
+style="color:red;font-size:20px;margin-left:20px"把字体颜色搞成蓝色，大小调整，并且前面空出一些格子来
+style="background-color:red;"这个是把背景颜色搞成红色
+style="text-align:center;font-family:arial;"居中，字体黑体
+__关于图像__
+img border="10" src="pulpit.jpg" alt="Pulpit rock" width="304" height="228"(很容易不做解释)
+####很难的一个东西：创造图像映射（目前先跳过一下）
+__表格__
+table做标签（一般有以下几个东西：thead,tr,td）
+table做标签，内部添加属性cellpadding可以使得表格单元格内容与单元格边框间有一定的边距
+table做标签，内部添加属性cellspacing可以使单元格间有一定的边距(等于0去掉相同的border线)
+在tr中可以写三个th
+在tr中也可以写一个th 若干个td（完成水平表格和竖直表格两种方式）
+caption标签可以显示表标题
+如果需要合并单元格利用colspan="2"或者rowspan="3"即可
+__注释的基本写法__
+<"!--blabla--">这是注释的写法（其中双引号是不需要的）
 
 
